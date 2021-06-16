@@ -22,8 +22,8 @@
 		279335FB1D5D2129001DFE84 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 279335F31D5D2129001DFE84 /* SimplePing.m */; };
 		279336081D5D2BDC001DFE84 /* NetworkCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 279336071D5D2BDC001DFE84 /* NetworkCalculator.m */; };
 		27DBF0001E45FEF100685616 /* MacFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DBEFFF1E45FEF100685616 /* MacFinder.m */; };
-		60E138DF1EEBF547007A0FA5 /* SimplePing_withoutHost.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E138DE1EEBF547007A0FA5 /* SimplePing_withoutHost.m */; };
 		27F0DFCF1F105E1B0043C777 /* MMDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F0DFCE1F105E1B0043C777 /* MMDevice.m */; };
+		60E138DF1EEBF547007A0FA5 /* SimplePing_withoutHost.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E138DE1EEBF547007A0FA5 /* SimplePing_withoutHost.m */; };
 		82194E9D1DCC7F49003F2BA1 /* MainPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 82194E9C1DCC7F49003F2BA1 /* MainPresenter.m */; };
 		8224B5B81DCB7AAC00AE606F /* MACOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8224B5B51DCB7AAC00AE606F /* MACOperation.m */; };
 		8224B5B91DCB7AAC00AE606F /* PingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8224B5B71DCB7AAC00AE606F /* PingOperation.m */; };
@@ -308,7 +308,7 @@
 				TargetAttributes = {
 					279335C11D5D1CB9001DFE84 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = JSY962FCU8;
+						DevelopmentTeam = 7UMMMKVNA9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -318,6 +318,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -493,9 +494,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JSY962FCU8;
+				DEVELOPMENT_TEAM = 7UMMMKVNA9;
 				INFOPLIST_FILE = "$(SRCROOT)/MMLanScanDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -510,9 +512,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JSY962FCU8;
+				DEVELOPMENT_TEAM = 7UMMMKVNA9;
 				INFOPLIST_FILE = "$(SRCROOT)/MMLanScanDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
