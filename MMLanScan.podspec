@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MMLanScan'
-  s.version          = '3.0.0'
+  s.version          = 'v3.0.20'
   s.summary          = 'MMLanScan is an open source project for iOS that helps you scan your network and shows the available devices.'
   
   s.description  = <<-DESC
@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/mavris/MMLanScan'
   s.license          = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author           = { 'Michael Mavris' => 'info@miksoft.net' }
-  s.source           = { :git => 'https://github.com/mavris/MMLanScan.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '8.0'
+  s.source           = { :git => 'https://github.com/chbeer/MMLanScan.git', :tag => s.version.to_s }
+  s.ios.deployment_target = '9.0'
   s.source_files = 'MMLanScan/**/*.{h,m}'
   s.resources        = 'MMLanScan/Data/data.plist'
 end
