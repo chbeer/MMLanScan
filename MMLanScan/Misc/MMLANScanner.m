@@ -41,7 +41,7 @@
         //Initializing the NSOperationQueue
         _queue = [[NSOperationQueue alloc] init];
         //Setting the concurrent operations to 50
-        [_queue setMaxConcurrentOperationCount:50];
+        [_queue setMaxConcurrentOperationCount:10];
         
         //Add observer to notify the delegate when queue is empty.
         [_queue addObserver:self forKeyPath:@"operations" options:0 context:nil];
